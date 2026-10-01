@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приглашённые докладчики ТМП 2026</title>
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="../images/logo-rus-eng.png" alt="Типология морфосинтаксических параметров" class="logo">
+    </header>
+
+    <!-- Mobile menu button -->
+    <button class="mobile-menu-btn" onclick="toggleMenu()">
+        <img src="../images/menu-2925825_1280.png" alt="Menu">
+    </button>
+
+    <!-- Main container -->
+    <div class="container">
+        <!-- Left sidebar menu -->
+        <nav class="main_menu" id="mainMenu">
+            <ul>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../index.html'">
+                        <img src="../images/buttonmain.png" alt="Button background">
+                        <span>Главная</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('conferences-submenu')">
+                        <img src="../images/buttonconf.png" alt="Button background">
+                        <span>Конференции</span>
+                    </button>
+                    <ul class="submenu" id="conferences-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2026.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2026</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2025.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2024.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2023.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2022.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2021.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2020.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2019.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2018.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2017.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2016.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2015.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2014.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2013.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2012.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2012</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2011.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2011</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('speakers-submenu')">
+                        <img src="../images/buttoninv.png" alt="Button background">
+                        <span>Приглашенные докладчики</span>
+                    </button>
+                    <ul class="submenu" id="speakers-submenu">
+                        <li><button class="submenu-btn current" onclick="window.location.href='speakers2026.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2026</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2025.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2024.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2023.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2022.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2021.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2020.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2019.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2018.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2017.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2016.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2015.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2014.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2013.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2012.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2012</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../publications.html'">
+                        <img src="../images/buttonpubl.png" alt="Button background">
+                        <span>Публикации</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../programmes.html'">
+                        <img src="../images/buttonprog.png" alt="Button background">
+                        <span>Прошлые программы</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main content area -->
+        <main class="contentpage">
+            <h1>Приглашённые докладчики ТМП 2026</h1>
+            <p><a href="../programmes/programme2026.html">Программа конференции</a></p>
+            <section class="invited-speakers" id="benic">
+                <h2>Мислав Бенич</h2>
+                <img src="../images/speakers/Mislav Benić.jpg" alt="Мислав Бенич" style="max-width: 240px; width: 100%; height: auto; border-radius: 5px;" loading="lazy">
+                <p><strong>Аффилиация:</strong> Институт хорватского языка</p>
+                <p>Старший научный сотрудник отдела диалектологии. Изучает синтаксис хорватских диалектов, относительные предложения и просодию.</p>
+                <p><strong>Доклад:</strong> Омонимия местоимений в словенском и хорватском языках (совместно с Младеном Ухликом)</p>
+                <p><a href="https://ihjj.hr/istrazivac/mislav-benic/61/" target="_blank" rel="noopener noreferrer">Страница на сайте института</a></p>
+            </section>
+            <section class="invited-speakers" id="uhlik">
+                <h2>Младен Ухлик</h2>
+                <img src="../images/speakers/Mladen_Uhlik.jpg" alt="Младен Ухлик" style="max-width: 240px; width: 100%; height: auto; border-radius: 5px;" loading="lazy">
+                <p><strong>Аффилиация:</strong> Люблянский университет / Институт словенского языка имени Франа Рамовша ZRC SAZU</p>
+                <p>Научный сотрудник и доцент; исследует сравнительное славянское языкознание, синтаксис и семантику.</p>
+                <p><strong>Доклад:</strong> Омонимия местоимений в словенском и хорватском языках (совместно с Миславом Беничем)</p>
+                <p><a href="https://isjfr.zrc-sazu.si/en/sodelavci/mladen-uhlik-en" target="_blank" rel="noopener noreferrer">Страница на сайте института</a></p>
+            </section>
+            <section class="invited-speakers" id="kustova">
+                <h2>Галина Ивановна Кустова</h2>
+                <img src="../images/speakers/Kustova.jpg" alt="Галина Ивановна Кустова" style="max-width: 240px; width: 100%; height: auto; border-radius: 5px;" loading="lazy">
+                <p><strong>Аффилиация:</strong> Институт русского языка им. В. В. Виноградова РАН / ГосИРЯ им. А. С. Пушкина</p>
+                <p>Доктор филологических наук, руководитель Центра грамматических исследований. Исследует грамматику, семантику и корпусную лингвистику.</p>
+                <p><strong>Доклад:</strong> Грамматика и семантика адвербиальных выражений</p>
+                <p><a href="https://ruslang.ru/publica/kustova" target="_blank" rel="noopener noreferrer">Страница на сайте института</a></p>
+            </section>
+        </main>
+    </div>
+
+    <!-- Fixed bottom line -->
+    <footer class="bottomline">
+        <p>Контакты<br>tmp.2018.moscow@gmail.com</p>
+        <button class="lang-btn" onclick="window.location.href='speakers2026_en.html'">
+            EN
+        </button>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

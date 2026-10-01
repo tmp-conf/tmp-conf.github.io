@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Программа конференции 2026 года - TMP 2026</title>
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="../images/logo-rus-eng.png" alt="Типология морфосинтаксических параметров" class="logo">
+    </header>
+
+    <!-- Mobile menu button -->
+    <button class="mobile-menu-btn" onclick="toggleMenu()">
+        <img src="../images/menu-2925825_1280.png" alt="Меню">
+    </button>
+
+    <!-- Main container -->
+    <div class="container">
+        <!-- Left sidebar menu -->
+        <nav class="main_menu" id="mainMenu">
+            <ul>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../index.html'">
+                        <img src="../images/buttonmain.png" alt="Фон кнопки">
+                        <span>Главная</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('conferences-submenu')">
+                        <img src="../images/buttonconf.png" alt="Фон кнопки">
+                        <span>Конференции</span>
+                    </button>
+                    <ul class="submenu active" id="conferences-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2026.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2026</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2025.html'">
+                            <img src="../images/buttonmain.png" alt="Фон кнопки"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2024.html'">
+                            <img src="../images/buttoninv.png" alt="Фон кнопки"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2023.html'">
+                            <img src="../images/buttonpubl.png" alt="Фон кнопки"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2022.html'">
+                            <img src="../images/buttonprog.png" alt="Фон кнопки"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2021.html'">
+                            <img src="../images/buttonconf.png" alt="Фон кнопки"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2020.html'">
+                            <img src="../images/buttonmain.png" alt="Фон кнопки"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2019.html'">
+                            <img src="../images/buttoninv.png" alt="Фон кнопки"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2018.html'">
+                            <img src="../images/buttonpubl.png" alt="Фон кнопки"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2017.html'">
+                            <img src="../images/buttonprog.png" alt="Фон кнопки"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2016.html'">
+                            <img src="../images/buttonconf.png" alt="Фон кнопки"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2015.html'">
+                            <img src="../images/buttonmain.png" alt="Фон кнопки"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2014.html'">
+                            <img src="../images/buttoninv.png" alt="Фон кнопки"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2013.html'">
+                            <img src="../images/buttonpubl.png" alt="Фон кнопки"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2012.html'">
+                            <img src="../images/buttonprog.png" alt="Фон кнопки"><span>2012</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2011.html'">
+                            <img src="../images/buttonconf.png" alt="Фон кнопки"><span>2011</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('speakers-submenu')">
+                        <img src="../images/buttoninv.png" alt="Фон кнопки">
+                        <span>Приглашённые докладчики</span>
+                    </button>
+                    <ul class="submenu" id="speakers-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='../speakers/speakers2026.html'">
+                            <img src="../images/buttonmain.png" alt="Фон кнопки"><span>2026</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../speakers/speakers2025.html'">
+                            <img src="../images/buttonmain.png" alt="Фон кнопки"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../speakers/speakers2024.html'">
+                            <img src="../images/buttoninv.png" alt="Фон кнопки"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../speakers/speakers2023.html'">
+                            <img src="../images/buttonpubl.png" alt="Фон кнопки"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../speakers/speakers2022.html'">
+                            <img src="../images/buttonprog.png" alt="Фон кнопки"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../speakers/speakers2021.html'">
+                            <img src="../images/buttonconf.png" alt="Фон кнопки"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../speakers/speakers2020.html'">
+                            <img src="../images/buttonmain.png" alt="Фон кнопки"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../speakers/speakers2019.html'">
+                            <img src="../images/buttoninv.png" alt="Фон кнопки"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../speakers/speakers2018.html'">
+                            <img src="../images/buttonpubl.png" alt="Фон кнопки"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../speakers/speakers2017.html'">
+                            <img src="../images/buttonprog.png" alt="Фон кнопки"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../speakers/speakers2016.html'">
+                            <img src="../images/buttonconf.png" alt="Фон кнопки"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../speakers/speakers2015.html'">
+                            <img src="../images/buttonmain.png" alt="Фон кнопки"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../speakers/speakers2014.html'">
+                            <img src="../images/buttoninv.png" alt="Фон кнопки"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../speakers/speakers2013.html'">
+                            <img src="../images/buttonpubl.png" alt="Фон кнопки"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../speakers/speakers2012.html'">
+                            <img src="../images/buttonprog.png" alt="Фон кнопки"><span>2012</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../publications.html'">
+                        <img src="../images/buttonpubl.png" alt="Фон кнопки">
+                        <span>Публикации</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../programmes.html'">
+                        <img src="../images/buttonprog.png" alt="Фон кнопки">
+                        <span>Прошлые программы</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main content area -->
+        <main class="contentpage">
+            <h1>Программа конференции 2026 года</h1>
+            <p>Для получения ссылки на Zoom обращайтесь к организаторам по адресу <a href="mailto:tmp.2018.moscow@gmail.com">tmp.2018.moscow@gmail.com</a>.</p>
+            <table class="programme-table">
+                <tr class="day-header"><td colspan="2">Среда, 21 октября</td></tr>
+<tr class="break-row"><td class="time-column">11:00–11:15</td><td class="content-column"><strong>Открытие</strong></td></tr>
+<tr class="section-header"><td class="time-column"></td><td class="content-column">Секция 1. Простая клауза</td></tr>
+<tr><td class="time-column">11:15–11:45</td><td class="content-column"><div class="author">Е.П. Дорофеева (МГУ)</div><div class="title"><a href="https://drive.google.com/file/d/1h-6gARduprNP_gdBBS-8HgzuXGK5Eqmf/view" target="_blank" rel="noopener noreferrer">Вопросительные местоимения и именной фокус в тиндинском языке: линейная позиция и просодия</a></div></td></tr>
+<tr><td class="time-column">11:45–12:15</td><td class="content-column"><div class="author">А.Д. Подгорная (ИЯз РАН)</div><div class="title"><a href="https://drive.google.com/file/d/1_svJNjo0vSX_D9-EyJYB70n8auVqZrPB/view" target="_blank" rel="noopener noreferrer">Вопросительная переориентация эвиденциальной системы (данные татышлинского говора удмуртского языка)</a></div></td></tr>
+<tr><td class="time-column">12:15–12:45</td><td class="content-column"><div class="author">Kyongjoon Kwon (Sungkyunkwan University)</div><div class="title"><a href="https://drive.google.com/file/d/1-EL18iQyRJppMPmDfzb23Ce84aq_VgRf/view" target="_blank" rel="noopener noreferrer">Structure, typology, and motivation of the incredulity response construction</a></div></td></tr>
+<tr><td class="time-column">12:45–13:15</td><td class="content-column"><div class="author">Д.Д. Белова (ИЯз РАН / НИУ ВШЭ)</div><div class="title"><a href="https://drive.google.com/file/d/1W-TVJJZTD8xDJsIoMmsGx9-zO3YXl7ym/view" target="_blank" rel="noopener noreferrer">Об одной псевдослусинговой конструкции в пермских языках</a></div></td></tr>
+<tr><td class="time-column">13:15–13:45</td><td class="content-column"><div class="author">И.В. Калякин (ГосИРЯ)</div><div class="title"><a href="https://drive.google.com/file/d/1Sg9OSA9bshBRk3Rsl-yuxRafuY_CIwUO/view" target="_blank" rel="noopener noreferrer">On two sluicing-like constructions in Muira Dargwa</a></div></td></tr>
+<tr class="break-row"><td class="time-column">13:45–14:45</td><td class="content-column"><strong>Обед</strong></td></tr>
+<tr class="section-header"><td class="time-column"></td><td class="content-column">Секция 2. Синтаксис и семантика местоимений</td></tr>
+<tr><td class="time-column">14:45–15:15</td><td class="content-column"><div class="author">Л.И. Паско (МГУ), А.В. Крайнова (МГУ)</div><div class="title"><a href="https://drive.google.com/file/d/1ivjF9bw-msucORq9ayxaA2NWgtP2Etd1/view" target="_blank" rel="noopener noreferrer">Reconstruction for Principle C in Russian topicalization: An experimental study</a></div></td></tr>
+<tr><td class="time-column">15:15–15:45</td><td class="content-column"><div class="author">Gleb Bubnov (HSE University)</div><div class="title"><a href="https://drive.google.com/file/d/1Wt5MQEP5mdiiOelAF-yD5opNyGNEIac8/view" target="_blank" rel="noopener noreferrer">Anaphors always have nominative forms</a></div></td></tr>
+<tr><td class="time-column">15:45–16:15</td><td class="content-column"><div class="author">М.Ю. Князев (ИЛИ РАН / НИУ ВШЭ — Санкт-Петербург)</div><div class="title"><a href="https://drive.google.com/file/d/1ZIcRnqX2hIznIB6g1n0qBz4og9ToJ3MV/view" target="_blank" rel="noopener noreferrer">Shifted person indexicals under the complementizer čto in Russian: competence or performance?</a></div></td></tr>
+<tr><td class="time-column">16:15–16:45</td><td class="content-column"><div class="author">Ф.А. Тучак (ИЯз РАН / РГГУ), К.Д. Гусаров (РГГУ)</div><div class="title"><a href="https://drive.google.com/file/d/1KG7V1prwfV4uFFlbWfSjNhq2DS_eGqO7/view" target="_blank" rel="noopener noreferrer">The expression of pronominal subjects in Kuujärvi Ludic</a></div></td></tr>
+<tr class="break-row"><td class="time-column">16:45–17:00</td><td class="content-column"><strong>Перерыв</strong></td></tr>
+<tr class="section-header"><td class="time-column"></td><td class="content-column">Пленарный доклад</td></tr>
+<tr><td class="time-column">17:00–18:00</td><td class="content-column"><div class="author"><a href="../speakers/speakers2026.html#benic">Mislav Benić</a> (Institute of the Croatian Language), <a href="../speakers/speakers2026.html#uhlik">Mladen Uhlik</a> (University of Ljubljana / ZRC SAZU Fran Ramovš Institute of the Slovenian Language)</div><div class="title"><a href="https://drive.google.com/file/d/1nYcCDiNJmDX_0ke2_tdYeoE7z8zuQOli/view" target="_blank" rel="noopener noreferrer">Homonymy of pronouns in Slovene and Croatian</a></div></td></tr>
+<tr class="day-header"><td colspan="2">Четверг, 22 октября</td></tr>
+<tr class="section-header"><td class="time-column"></td><td class="content-column">Секция 3. Структура клаузы</td></tr>
+<tr><td class="time-column">10:00–10:30</td><td class="content-column"><div class="author">К.К. Лесняк (ГосИРЯ)</div><div class="title"><a href="https://drive.google.com/file/d/1Dwnl9rIxKPw4XJAwgfnbd4OARFQUKTgm/view" target="_blank" rel="noopener noreferrer">Towards a unified analysis of participles and nominalizations in Nor-Nakhichevan Armenian</a></div></td></tr>
+<tr><td class="time-column">10:30–11:00</td><td class="content-column"><div class="author">Д.А. Бурмистров (МГУ), В.А. Яровая (МГУ)</div><div class="title"><a href="https://drive.google.com/file/d/1Ff5xBVP7JYw4e1j6PVzjEJryyW2CyRsP/view" target="_blank" rel="noopener noreferrer">Внутренняя структура сравнительных конструкций с показателем -muqa в тиндинском языке</a></div></td></tr>
+<tr><td class="time-column">11:00–11:30</td><td class="content-column"><div class="author">П.В. Гращенков (МГУ)</div><div class="title"><a href="https://drive.google.com/file/d/18aoQji28dwJXbgx5o24-8OzuZqnEIuZ1/view" target="_blank" rel="noopener noreferrer">Интерпретируемое T или параметр числового рас/согласования</a></div></td></tr>
+<tr><td class="time-column">11:30–12:00</td><td class="content-column"><div class="author">Т.И. Давидюк (ИЯз РАН)</div><div class="title"><a href="https://drive.google.com/file/d/1XAZJwxqXB-sud6AR3Rmk-VbNC66WP64w/view" target="_blank" rel="noopener noreferrer">Послелоги с параметрическим значением в татышлинском удмуртском</a></div></td></tr>
+<tr><td class="time-column">12:00–12:30</td><td class="content-column"><div class="author">Л.В. Хохлова (ИСАА МГУ)</div><div class="title"><a href="https://drive.google.com/file/d/1ieduLezZv5zxmFzfthVs82norUDYBh0V/view" target="_blank" rel="noopener noreferrer">Выражение агенса в пассивных конструкциях западных индоарийских языков (хинди, панджаби, гуджарати и раджастхани)</a></div></td></tr>
+<tr class="break-row"><td class="time-column">12:30–12:50</td><td class="content-column"><strong>Перерыв</strong></td></tr>
+<tr class="section-header"><td class="time-column"></td><td class="content-column">Пленарный доклад</td></tr>
+<tr><td class="time-column">12:50–13:50</td><td class="content-column"><div class="author"><a href="../speakers/speakers2026.html#kustova">Г.И. Кустова</a> (ИРЯ РАН / ГосИРЯ)</div><div class="title">Грамматика и семантика адвербиальных выражений</div></td></tr>
+<tr class="break-row"><td class="time-column">13:50–15:20</td><td class="content-column"><strong>Обед</strong></td></tr>
+<tr class="section-header"><td class="time-column"></td><td class="content-column">Секция 4. Полипредикативный синтаксис</td></tr>
+<tr><td class="time-column">15:20–15:50</td><td class="content-column"><div class="author">В.Ю. Гусев (ИЯз РАН)</div><div class="title"><a href="https://drive.google.com/file/d/1dQ5YfoNDPGIrM9LEJauMSnKEVjbe5cIH/view" target="_blank" rel="noopener noreferrer">Русские конструкции типа хотеть есть</a></div></td></tr>
+<tr><td class="time-column">15:50–16:20</td><td class="content-column"><div class="author">А.А. Осипова (ИЯз РАН)</div><div class="title"><a href="https://drive.google.com/file/d/1L3w1cvpZkCB4dAw-MrBsz58vmtkudvsc/view" target="_blank" rel="noopener noreferrer">Эффекты совпадения в темпоральных коррелятивах осетинского языка</a></div></td></tr>
+<tr><td class="time-column">16:20–16:50</td><td class="content-column"><div class="author">Д.А. Урывская (РГГУ)</div><div class="title"><a href="https://drive.google.com/file/d/1ijzG_HMmcxTXn-MX_C-dF6FPeLanVoa5/view" target="_blank" rel="noopener noreferrer">Direct object control in Russian gerundives: An experimental study</a></div></td></tr>
+<tr><td class="time-column">16:50–17:20</td><td class="content-column"><div class="author">Д.Б. Тискин (НИУ ВШЭ — СПб / ИЛИ РАН)</div><div class="title"><a href="https://drive.google.com/file/d/1vLPJXe5Rml41eqSVpYSvfCcah1XELjOZ/view" target="_blank" rel="noopener noreferrer">Дистантная и множественная ассоциация с фокусом в русских придаточных</a></div></td></tr>
+<tr><td class="time-column">17:20–17:50</td><td class="content-column"><div class="author">Н.В. Сердобольская (ИЯз РАН), И.М. Кобозева (ИЯз РАН)</div><div class="title"><a href="https://drive.google.com/file/d/1E-XZcOG2McsEwbiBl0yDKzzOzjp7OMET/view" target="_blank" rel="noopener noreferrer">Периферийные сентенциальные актанты и новые отпредложные комплементайзеры русского языка</a></div></td></tr>
+<tr class="day-header"><td colspan="2">Пятница, 23 октября</td></tr>
+<tr class="section-header"><td class="time-column"></td><td class="content-column">Секция 5. Синтаксис именной группы</td></tr>
+<tr><td class="time-column">10:00–10:30</td><td class="content-column"><div class="author">Д.А. Алексеев (ИЯз РАН)</div><div class="title"><a href="https://drive.google.com/file/d/1FD5Vnd6ApbzOIhPtfmWQTGnaJCR1osFY/view" target="_blank" rel="noopener noreferrer">A tale of two genitives</a></div></td></tr>
+<tr><td class="time-column">10:30–11:00</td><td class="content-column"><div class="author">О.И. Беляев (ИЯз РАН), А.С. Шатских (ИЯз РАН)</div><div class="title"><a href="https://drive.google.com/file/d/1Fm7CGUouVlF7YLikQxKP6P-XuTc9jC_C/view" target="_blank" rel="noopener noreferrer">Генитивная инверсия в осетинском языке как специализированная экспрессивная конструкция</a></div></td></tr>
+<tr><td class="time-column">11:00–11:30</td><td class="content-column"><div class="author">Ф.Г. Шушурин (НИУ ВШЭ)</div><div class="title"><a href="https://drive.google.com/file/d/13TORz8HIlpb_8m2_1G_v5QmxwVhsSEOv/view" target="_blank" rel="noopener noreferrer">Синтаксис генитивных зависимых в русской именной группе</a></div></td></tr>
+<tr><td class="time-column">11:30–12:00</td><td class="content-column"><div class="author">В.А. Борисова (МГУ)</div><div class="title"><a href="https://drive.google.com/file/d/1N276WhuDmbATdlKqZJn9ZX6smWhPsS7N/view" target="_blank" rel="noopener noreferrer">Структура и падежное маркирование именных групп с дистрибутивным показателем фæйнæ: иронский vs. дигорский осетинский</a></div></td></tr>
+<tr class="break-row"><td class="time-column">12:00–12:20</td><td class="content-column"><strong>Перерыв</strong></td></tr>
+<tr class="section-header"><td class="time-column"></td><td class="content-column">Секция 6. Сочинение</td></tr>
+<tr><td class="time-column">12:20–12:50</td><td class="content-column"><div class="author">А.Р. Маркарова (МГУ)</div><div class="title"><a href="https://drive.google.com/file/d/1ryIzZJc9_9tBldoeK0QYVShX1C6ZnJ-p/view" target="_blank" rel="noopener noreferrer">Фактор типа конъюнктов в согласовании с сочиненным подлежащим: случай субстантивированных прилагательных</a></div></td></tr>
+<tr><td class="time-column">12:50–13:20</td><td class="content-column"><div class="author">А.В. Панова (НИУ ВШЭ)</div><div class="title"><a href="https://drive.google.com/file/d/1jQxW9WUQcP589Y8zj30g8hSTb9ZBeWuW/view" target="_blank" rel="noopener noreferrer">Grammaticalization of nominal coordination</a></div></td></tr>
+<tr><td class="time-column">13:20–13:50</td><td class="content-column"><div class="author">М.И. Сатина (НИУ ВШЭ / ЮНИИ ИТ), О.И. Беляев (ИЯз РАН / МГУ)</div><div class="title"><a href="https://drive.google.com/file/d/1GxGIYXtt_ky6qQ7Goo57XvA47dtRL7_k/view" target="_blank" rel="noopener noreferrer">Аддитивное сочинение в осетинском языке: гибридный подход</a></div></td></tr>
+<tr class="break-row"><td class="time-column">13:20–15:00</td><td class="content-column"><strong>Обед</strong></td></tr>
+<tr class="section-header"><td class="time-column"></td><td class="content-column">Секция 7. Грамматические категории</td></tr>
+<tr><td class="time-column">15:00–15:30</td><td class="content-column"><div class="author">Д.А. Парамонова (ГосИРЯ)</div><div class="title"><a href="https://drive.google.com/file/d/1IW3Zt2XIwawdfTeoZimJpHrt7hS8Gz8-/view" target="_blank" rel="noopener noreferrer">Некоторые структурные ограничения на то-топикализацию глагола в русском языке: экспериментальное исследование</a></div></td></tr>
+<tr><td class="time-column">15:30–16:00</td><td class="content-column"><div class="author">Д.Р. Хаялеева (НИУ ВШЭ), Л.С. Файзеева (НИУ ВШЭ)</div><div class="title"><a href="https://drive.google.com/file/d/1ZNADwes19MoTW2QUDsWQmhZphhZStGFM/view" target="_blank" rel="noopener noreferrer">Новый подход к старой проблеме: сегментация форм аварского глагола</a></div></td></tr>
+<tr><td class="time-column">16:00–16:30</td><td class="content-column"><div class="author">А.В. Прокопьева (МГУ)</div><div class="title"><a href="https://drive.google.com/file/d/167w2opSQhUc71Vj3EYqe75-S_41HyHUf/view" target="_blank" rel="noopener noreferrer">Типологическая частотность как предиктор усвоения паттернов падежного синкретизма: метод искусственного языка</a></div></td></tr>
+<tr><td class="time-column">16:30–17:00</td><td class="content-column"><div class="author">Р.В. Сычев (БФУ им. И. Канта)</div><div class="title"><a href="https://drive.google.com/file/d/1CTVHlE5ohBXQOdjhGg83ULArVx7cuIlE/view" target="_blank" rel="noopener noreferrer">Грамматический статус вокатива в истории языка какчикель</a></div></td></tr>
+<tr><td class="time-column">17:00–17:30</td><td class="content-column"><div class="author">А.В. Крайнова (МГУ)</div><div class="title"><a href="https://drive.google.com/file/d/1WM4uEFQCmHRR9rVITDy_8D41nsSXWyFA/view" target="_blank" rel="noopener noreferrer">Beyond Matching: Structural and case constraints in Russian free relatives</a></div></td></tr>
+<tr class="break-row"><td class="time-column">17:30–17:45</td><td class="content-column"><strong>Закрытие</strong></td></tr>
+            </table>
+            <p><a href="https://sites.google.com/view/tmp2026/программа" target="_blank" rel="noopener noreferrer">Программа на сайте конференции</a></p>
+        </main>
+    </div>
+
+    <!-- Fixed bottom line -->
+    <footer class="bottomline">
+        <p>Контакты<br>tmp.2018.moscow@gmail.com</p>
+        <button class="lang-btn" onclick="window.location.href='programme2026_en.html'">
+            EN
+        </button>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
